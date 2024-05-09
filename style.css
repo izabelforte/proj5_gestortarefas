@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    color:black;
+    font-family: Roboto,'Helvetica Neue', sans-serif;
+}
+.container {
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    max-width: 450px;
+    
+  
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+.form{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form label{
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.form input{
+    height: 32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.form input:focus{
+    background-color: #c4c3c3;
+}
+
+.form button{
+    background-color: rgb(255, 127, 214);
+    height: 32px;
+    border:none;
+    border-radius: 4px;
+    color:#FFF;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+    transition: background 0.3s;
+}
+
+.form button:hover{
+    background-color: rgb(245, 157, 217);
+}
+.separator{
+    background-color: #bbb;
+    height: 2px;
+    border-radius: 1px;
+
+}
+.list-tasks {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.list-tasks ul {
+    list-style: none;
+}
+
+.list-tasks ul li {
+    background-color: rgb(42, 224, 145);
+    height: 54px;
+    border-radius: 4px;
+    color:#FFF;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: background 0.3s;
+}
+
+.list-tasks ul li:hover {
+    background-color: rgba(127, 230, 185, 0.951);
+}
+
+.btn-clear {
+    background-color: #EF5350;
+    padding: 12px;
+    border:none;
+    color:#FFF;
+    border-radius: 4px;
+
+    
+    transition: background 0.3s;
+}
+.btn-clear:hover {
+    background-color: #f38e8c;
+}
+
+.footer {
+    background-color: #f0f0f5;
+    border-radius:4px;
+    padding: 12px;
+}
+
+.footer p {
+    color: #999;
+    font-size: 12px;
+}
