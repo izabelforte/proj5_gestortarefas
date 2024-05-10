@@ -78,7 +78,7 @@ if (isset($_GET['clear'])){
                     $taskDate = new DateTime($task['task_date']); // Cria um objeto DateTime para a data da tarefa
                     $color = $task['task_color'];
                     $difference = $taskDate->diff($today);
-                    echo "<li onclick='expandirInfo(this); exibirAlerta(\"Texto do alerta\");' style='background-color: $color;'>
+                    echo "<li onclick='expandirInfo(this, \"". $difference->format('%a dias') ."\");  exibirAlerta(\"" . $difference->format('%a dias') . "\", \"Texto do alerta\");' style='background-color: $color;'>
                         <span>" . $task['task_name']. "</span>
                         
                         <div class='info-container' style='display: none;'>
