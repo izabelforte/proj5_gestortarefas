@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -127,4 +127,159 @@ body{
 .footer p {
     color: #999;
     font-size: 12px;
+} */
+
+
+/* novo estilo pra praticar */
+
+body {
+    font-family: roboto, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
 }
+
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #d2d7db;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #39586d;
+    font-size: 36px;
+    margin: 0;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #39586d;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="file"] {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #39586d;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 10%;
+    color: #39586d;
+    font-weight: bold;
+}
+
+.form input[type="text"]:focus,
+.form input[type="date"]:focus,
+.form input[type="file"]:focus {
+    outline: none;
+    border-color: #39586d;
+    color: #39586d;
+    
+}
+.cores-input{
+    display: flex;
+    margin-left: 10%;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: #39586d;
+    font-weight: bold;
+}
+.form-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    gap: 10px;
+}
+
+.btn-agendar{
+    padding: 12px 24px;
+    background-color: #39586d;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.btn-mostrar{
+    padding: 12px 24px;
+    background-color: #928b8b;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.list-tasks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-tasks li {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 75%;
+    margin-left: 10%;
+    
+}
+
+
+
+.info-container {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-clear {
+    padding: 12px 24px;
+    background-color: #ff3333;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 77%;
+}
+
+.btn-clear:hover {
+    background-color: #ff3333;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    border-radius:4px;
+    padding: 12px;
+}
+
+.footer p {
+    color: #999;
+    font-size: 12px;
+} 
