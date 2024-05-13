@@ -1,136 +1,3 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: antiquewhite;
-    color:black;
-    font-family: Roboto,'Helvetica Neue', sans-serif;
-}
-.container {
-    background-color: #ffffff;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 12px;
-    max-width: 450px;
-    
-  
-
-}
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4px;
-    margin-bottom: 4px;
-
-}
-
-.form{
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-.form form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.form label{
-    font-weight: bold;
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-.form input{
-    height: 32px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding-left: 12px;
-    border: 1px solid #999;
-    border-radius: 4px;
-}
-.form input:focus{
-    background-color: #c4c3c3;
-}
-
-.form button{
-    background-color: rgb(255, 127, 214);
-    height: 32px;
-    border:none;
-    border-radius: 4px;
-    color:#FFF;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    
-    transition: background 0.3s;
-}
-
-.form button:hover{
-    background-color: rgb(245, 157, 217);
-}
-.separator{
-    background-color: #bbb;
-    height: 2px;
-    border-radius: 1px;
-
-}
-.list-tasks {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
-.list-tasks ul {
-    list-style: none;
-}
-
-.list-tasks ul li {
-    background-color: rgb(42, 224, 145);
-    height: 54px;
-    border-radius: 4px;
-    color:#FFF;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 12px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    transition: background 0.3s;
-}
-
-.list-tasks ul li:hover {
-    background-color: rgba(127, 230, 185, 0.951);
-}
-
-.btn-clear {
-    background-color: #EF5350;
-    padding: 12px;
-    border:none;
-    color:#FFF;
-    border-radius: 4px;
-
-    
-    transition: background 0.3s;
-}
-.btn-clear:hover {
-    background-color: #f38e8c;
-}
-
-.footer {
-    background-color: #f0f0f5;
-    border-radius:4px;
-    padding: 12px;
-}
-
-.footer p {
-    color: #999;
-    font-size: 12px;
-} */
-
-
-/* novo estilo pra praticar */
 
 body {
     font-family: roboto, Geneva, Verdana, sans-serif;
@@ -142,7 +9,7 @@ body {
 .container {
     max-width: 700px;
     margin: 60px auto;
-    padding: 20px;
+    padding: 40px 80px;
     background-color: #d2d7db;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -164,13 +31,13 @@ body {
     margin-bottom: 5px;
     color: #39586d;
     font-weight: bold;
-    margin-left: 10%;
+    
 }
 
 .form input[type="text"],
 .form input[type="date"],
 .form input[type="file"] {
-    width: 80%;
+    width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     border: 2px solid #39586d;
@@ -178,7 +45,7 @@ body {
     box-sizing: border-box;
     font-size: 16px;
     text-align: center;
-    margin-left: 10%;
+    
     color: #39586d;
     font-weight: bold;
 }
@@ -191,9 +58,13 @@ body {
     color: #39586d;
     
 }
+.cores-btn-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .cores-input{
     display: flex;
-    margin-left: 10%;
     align-items: flex-start;
     gap: 10px;
     margin-bottom: 15px;
@@ -203,8 +74,6 @@ body {
 .form-btn{
     display: flex;
     justify-content: flex-end;
-    margin-right: 10%;
-    gap: 10px;
 }
 
 .btn-agendar{
@@ -218,10 +87,9 @@ body {
     transition: background-color 0.3s ease;
     
 }
+
 .btn-mostrar{
-    padding: 12px 24px;
-    background-color: #928b8b;
-    color: #ffffff;
+    color: #39586d;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -236,14 +104,14 @@ body {
 }
 
 .list-tasks li {
-    padding: 20px;
+    padding: 20px 0px;
     border-radius: 8px;
     margin-bottom: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     cursor: pointer;
-    width: 75%;
-    margin-left: 10%;
+    width: 100%;
+    
     
 }
 
@@ -254,6 +122,7 @@ body {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
 .btn-clear {
@@ -265,7 +134,6 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-left: 77%;
 }
 
 .btn-clear:hover {

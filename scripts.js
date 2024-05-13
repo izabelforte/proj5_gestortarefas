@@ -24,3 +24,19 @@ function expandirInfo(element, difference) {
         infoExpanded = false;
     }
 }
+
+function mostrarTarefas(element){
+    var mostrarTar = document.querySelector('.list-tasks');
+    const arrow = document.getElementById('seta')
+    if (mostrarTar.style.display === 'none') {
+        mostrarTar.style.display = 'block';
+        arrow.classList.remove('bi-caret-down-fill');
+        arrow.classList.add('bi-caret-up-fill');
+
+    } else {
+        mostrarTar.style.display = 'none';
+        
+        arrow.classList.remove('bi-caret-up-fill');
+        arrow.classList.add('bi-caret-down-fill');
+    }
+}
